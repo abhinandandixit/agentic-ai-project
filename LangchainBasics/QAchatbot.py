@@ -22,7 +22,10 @@ with st.sidebar:
     # Model Selection
     model_name=st.selectbox(
         "Model",
-        ["llama3-8b-8192", "gemma2-9b-it"],
+        ["openai/gpt-oss-20b",
+        "openai/gpt-oss-120b",
+        "llama-3.3-70b-versatile",
+        "llama-3.1-8b-instant"],
         index=0
     )
 
